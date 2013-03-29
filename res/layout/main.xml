@@ -4,10 +4,26 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <TextView
-            android:layout_width="fill_parent"
+    <Button
+            android:id="@+id/btnAddExpenditure"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World, MainActivity"
+            android:text="Add a Expenditure"
             />
+
+    <Button
+            android:id="@+id/btnAddMultipleExpenditure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Multiple Expenditure"
+            />
+
+    <Button
+            android:id="@+id/btnViewExpenditureList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Expenditure List"
+            />
+
 </LinearLayout>
 
